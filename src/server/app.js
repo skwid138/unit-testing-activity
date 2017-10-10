@@ -1,7 +1,9 @@
 var express = require('express');
 var path = require('path');
 var app = express();
+var request = require('request');
 var bodyParser = require('body-parser');
+
 
 // routes
 var capitalizeRouter = require('./routes/capitalize.route.js');

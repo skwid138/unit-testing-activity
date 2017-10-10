@@ -1,5 +1,4 @@
 var router = require('express').Router();
-
 var oddEven = require('../modules/oddEven');
 
 router.get('/:num', function(req, res) {
