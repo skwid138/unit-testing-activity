@@ -7,7 +7,7 @@ describe('oddEven module', function() {
     expect(oddEven).to.throw(TypeError, /expects a number/);
   });
 
-  it('should return the string even when passed an even nubmer', function() {
-    expect(oddEven(4)).to.equal('odd');
+  it('should return the string even when passed an even number', function() {
+    expect(oddEven(4)).to.equal('even');
   });
 });
