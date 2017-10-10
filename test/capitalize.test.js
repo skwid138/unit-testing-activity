@@ -8,7 +8,7 @@ describe('capitalize module', function() {
     it("should return the string 'Ethan' when passed 'ethan'", function() {
         expect(capitalize('ethan')).to.equal('Ethan');
     }); // end it
-    it("should return the string 'Hello world' when passed 'hello world'", function() {
+    it("should return the string 'Hello World' when passed 'hello world'", function() {
         expect(capitalize('hello world')).to.equal('Hello World');
     }); // end it
 }); // end outer describe
